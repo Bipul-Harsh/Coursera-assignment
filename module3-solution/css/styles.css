@@ -5,13 +5,10 @@ body {
 
 }
 #header-nav {
-  background-color: #f783d6a8;
+  background-color: #f783d6;
   border-radius: 0;
   border: 0;
   width: 100%;
-}
-#header-nav:hover{
-  background-color: #f783d6;
 }
 .navbar-brand {
   padding-top: 25px;
@@ -20,14 +17,11 @@ body {
 }
 .navbar-brand h1 {
   font-family: monospace;
-  color: #531dbdab;
+  color: #531dbd;
   font-size: 2em;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-}
-.navbar-brand h1:hover{
-  color: #531dbd;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
