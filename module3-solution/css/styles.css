@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  background-color: #8398c1;
+  font-family: cursive;
+
+}
+#header-nav {
+  position: fixed;
+  z-index: 2;
+  background-color: #f783d6a8;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+}
+#header-nav:hover{
+  background-color: #f783d6;
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.navbar-brand h1 {
+  font-family: monospace;
+  color: #531dbdab;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand h1:hover{
+  color: #531dbd;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #d1ace2;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #30b594;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.container h2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 140px;
+}
+.container .heading h3{
+  text-align:center;
+}
+#chicken{
+  background-color: #e08a8a;
+  margin-bottom: 40px;
+  padding: 0 30px 30px 30px;
+}
+#beef{
+  background-color: #aa90d0;
+  margin-bottom: 40px;
+  padding: 0 30px 30px 30px;
+}
+#sushi{
+  background-color: #eaea88;
+  margin-bottom: 40px;
+  padding: 0 30px 30px 30px;
+}
+@media(max-width: 860px){
+  .container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
